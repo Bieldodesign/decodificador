@@ -2,13 +2,15 @@ body{
     margin: 0px;
     border: 0px;
     padding: 0px;
+    background-color: #350769;
+    background-image: url("assets\pixil-frame-0.png");
 }
 nav{
     position: fixed;
     top:0px;
     height: 40px;
     width: 100vw;
-    background-color: aqua;
+    background-color: #99197d;
 }
 nav > ul {
     display: flex;
@@ -33,40 +35,53 @@ header > div{
     justify-content: center;
     flex-direction: row;
     gap: 10px;
-    background-color: goldenrod;
+}
+header > h1{
+    color: blanchedalmond;
 }
 
 #workplace{
     display:flex;
     justify-content: space-around;
     flex-direction: row;
-    background-color: coral;
     gap: 40px;
 }
 .codificationArea{
-    background-color: blanchedalmond;
+    color: blanchedalmond;
     width: 45vw;   
 }
 #textInputArea{
-    width: 95%;
+    width: 80%;
     min-height: 350px;
     box-sizing: border-box;
     border: 3px solid #ccc;
     margin: 0 16px;
+    padding: 10px;
 }
 #textOutputArea{
-    width: 95%;
+    width: 80%;
     min-height: 350px;
     background-color: white;
     box-sizing: border-box;
     border: 3px solid #ccc;
-    margin: 0 16px;
+    margin: 0 16px 0 8vw;
+    padding: 10px;
 }
 .IOheader{
     text-align: center;
 }
 #tag{
     text-align: center;
+}
+#mageBard{
+    pointer-events: none;
+    position: absolute;
+    left: 15vw;
+    z-index: -2;
+    top: -50px;
+}
+.textArea{
+    color: black;
 }
 
 

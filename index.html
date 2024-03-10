@@ -5,19 +5,24 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="togllebtn.css">
 
 </head>
 <body>
     <nav>
         <ul>
-            <li><a><img class ="logos" src="assets\customerlogo-alura.avif" alt="Alura logo"></a></li>
-            <li><a><img class ="logos" src="assets\logotipo.png" alt="Biel Logo"></a></li>
+            <li><a href="https://www.alura.com.br/"> <img class ="logos" src="assets\customerlogo-alura.avif" alt="Alura logo"></a></li>
+            <li><a href="https://bieldodesign.github.io/portifolio/"><img class ="logos" src="assets\logotipo.png" alt="Biel Logo"></a></li>
         </ul>
     </nav>
     <header>
         <h1>Olá Viajante sou o Sabio das Mil léguas,<br> O que desejas?</h1>
         <div class="checkboxbox">
-            <input type="checkbox" id="codeORdecode"> 
+            <!-- <input type="checkbox" id="codeORdecode">  -->
+            <label class="toggle-switch" for="codeORdecode">
+                <input type="checkbox" id="codeORdecode">
+                <span class="slider"></span>
+            </label>
             <p>decodificar?</p>
         </div>
     </header>
@@ -33,6 +38,7 @@
             <p class="textArea" id="textOutputArea">Mas Realmente sabes o que busca? <br>A Resposta nem sempre é obvia.</p>
         </div>
     </section>
+    <img id="mageBard" src="assets\pixil-frame-0.png" alt="Cleber, o Mensageiro!">
     <footer>
         <div id="leftFooter" class="footercontent">
             <p >Feito por Gabriel Palaoro</p>
